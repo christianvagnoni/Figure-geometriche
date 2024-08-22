@@ -28,7 +28,7 @@ def main():
          larghezza = float(input("inserire la larghezza del rettangolo:"))
          lunghezza =float(input("inserire la lunghezza del rettangolo:"))
          perimetro =calcoloperimetrorettangolo(larghezza, lunghezza)
-         print(f"il perimetro del rettangolo corrisponde a: I'm {perimetro}")
+         print(f"il perimetro del rettangolo corrisponde a: {perimetro}")
 # operazione di calcolo per il perimetro geometrico del quadrato
     elif figurageometrica == 3:
          lato = float(input("inserire lunghezza lato quadrato"))
@@ -40,7 +40,7 @@ def main():
          l2 = float(input("inserire lunghezza l2:"))
          l3 = float(input("inserire lunghezza l3:"))
          perimetro = calcoloperimetrodeltriangolo(l1, l2, l3)
-         print(f"il perimetro del triangolo corrisponde a: I'm {perimetro}")
+         print(f"il perimetro del triangolo corrisponde a: {perimetro}")
     else:
         print("Error: non presente nel database.")
 
