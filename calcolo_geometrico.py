@@ -1,10 +1,9 @@
 # utilizzo import per impostare la funzione math
-# con math posso fare il calcolo matematico
 
-import math
+
 # utilizzo def per impostare i comandi per il calcolo del perimetro geometrico
 def calcoloraggiocerchio(raggio):
-    return 2 * math + raggio
+    return 2 * raggio
 def calcoloperimetrorettangolo(larghezza, lunghezza):
     return 2 * (larghezza + lunghezza)
 def calcoloperimetroquadrato(lato):
