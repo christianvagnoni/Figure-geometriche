@@ -5,15 +5,12 @@ def calcoloperimetrorettangolo(larghezza, lunghezza):
     return 2 * (larghezza + lunghezza)
 def calcoloperimetroquadrato(lato):
     return 4 * lato
-def calcoloperimetrodeltriangolo(l1, l2, l3):
-    return l1 + l2 + l3
 # con def main() imposto il print per avere ogni risultato di ogni singola figura geometrica
 def main():
     print("Scegli una figura Geometrica:")
     print("1. cerchio")
     print("2. rettangolo")
     print("3. quadrato")
-    print("4. triangolo")
 # imposto una variabile che mi permette di scegliere la figura geometrica
     figurageometrica = int(input("inserire numero corrispondente alla figura geometrica"))
 
@@ -34,13 +31,7 @@ def main():
          lato = float(input("inserire lunghezza lato quadrato"))
          perimetro = calcoloperimetroquadrato(lato) 
          print(f"il perimetro del quadrato corrsiponde a: {perimetro}")
-# operazione di calcolo per il perimetro geometrico del triangolo
-    elif figurageometrica == 4:
-         l1 = float(input("inserire lunghezza l1:"))
-         l2 = float(input("inserire lunghezza l2:"))
-         l3 = float(input("inserire lunghezza l3:"))
-         perimetro = calcoloperimetrodeltriangolo(l1, l2, l3)
-         print(f"il perimetro del triangolo corrisponde a: {perimetro}")
+#utilizzo else per rivecere risposta in caso non inserisca un numero corripondente 
     else:
         print("Error: non presente nel database.")
 
