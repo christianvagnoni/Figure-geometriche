@@ -1,7 +1,7 @@
 # utilizzo def per impostare i comandi per il calcolo del perimetro geometrico
 import math
-def calcoloraggiocerchio(raggio):
-    return 2 * math.pi * raggio
+def calcoloraggiocerchio(r):
+    return 2 * math.pi * r
 def calcoloperimetrorettangolo(larghezza, lunghezza):
     return 2 * (larghezza + lunghezza)
 def calcoloperimetroquadrato(lato):
@@ -16,9 +16,9 @@ def main():
 # utilizzo if ed elif per impostare le scelte numeriche assegnate ad ogni figura geometrica
 # operazione di calcolo per il perimetro geometrico del cerchio
     if figurageometrica == 1:
-        raggio = float(input("inserire il raggio del cerchio:"))
-        raggio = calcoloraggiocerchio(raggio)
-        print(f"il raggio del cerchio corrisponde a: {raggio}")
+        r = float(input("inserire il raggio del cerchio:"))
+        r = calcoloraggiocerchio(r)
+        print(f"il raggio del cerchio corrisponde a: {r}")
 # operazione di calcolo per il perimetro del rettangolo
     elif figurageometrica == 2:
          larghezza = float(input("inserire la larghezza del rettangolo:"))
