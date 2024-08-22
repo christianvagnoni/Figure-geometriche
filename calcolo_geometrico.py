@@ -1,6 +1,6 @@
 # utilizzo def per impostare i comandi per il calcolo del perimetro geometrico
 def calcoloraggiocerchio(raggio):
-    return 2 * raggio
+    return 2 * 3.14 * raggio
 def calcoloperimetrorettangolo(larghezza, lunghezza):
     return 2 * (larghezza + lunghezza)
 def calcoloperimetroquadrato(lato):
