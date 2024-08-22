@@ -1,17 +1,15 @@
-
 # utilizzo def per impostare i comandi per il calcolo del perimetro geometrico
+import math
 def calcoloraggiocerchio(raggio):
-    return 2 * 3.14 * raggio
+    return 2 * math.pi * raggio
 def calcoloperimetrorettangolo(larghezza, lunghezza):
     return 2 * (larghezza + lunghezza)
 def calcoloperimetroquadrato(lato):
     return 4 * lato
 # con def main() imposto il print per avere ogni risultato di ogni singola figura geometrica
 def main():
-    print("Scegli una figura Geometrica:")
-    print("1. cerchio")
-    print("2. rettangolo")
-    print("3. quadrato")
+    print(f"Scegli una figura geometrica, \n1 cerchio, \n2 rettangolo, \n3 quadrato:")
+           
 # imposto una variabile che mi permette di scegliere la figura geometrica
     figurageometrica = int(input("inserire numero corrispondente alla figura geometrica"))
 
@@ -36,8 +34,7 @@ def main():
     else:
         print("Error: non presente nel database.")
 
-if __name__ == "__main__":
-    main()
+main()
 
 
        
