@@ -1,6 +1,3 @@
-# utilizzo import per impostare la funzione math
-
-
 # utilizzo def per impostare i comandi per il calcolo del perimetro geometrico
 def calcoloraggiocerchio(raggio):
     return 2 * raggio
@@ -38,7 +35,7 @@ def main():
          perimetro = calcoloperimetroquadrato(lato) 
          print(f"il perimetro del quadrato corrsiponde a: {perimetro}")
 # operazione di calcolo per il perimetro geometrico del triangolo
-    elif figurageometrica == 3:
+    elif figurageometrica == 4:
          l1 = float(input("inserire lunghezza l1:"))
          l2 = float(input("inserire lunghezza l2:"))
          l3 = float(input("inserire lunghezza l3:"))
